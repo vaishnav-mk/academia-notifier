@@ -1,0 +1,6 @@
+name = "notifier"
+compatibility_date = "2024-08-18"
+
+kv_namespaces = [
+  { binding = "notifier", id = "afba9f9814c44feb935a0556f1e7efe1", preview_id = "8b7a9b2fe33c4d859e2a1124042c8cff" }
+]
