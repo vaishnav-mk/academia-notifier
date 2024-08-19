@@ -113,7 +113,7 @@ app.get("/", async (c) => {
         description: "Current Marks",
         fields: marks.marks.map((mark) => ({
           name: mark.courseName,
-          value: mark.courseType,
+          value: `\`${mark?.overall?.marks}\` / \`${mark?.overall?.total}\``,
           inline: true,
         })),
         timestamp: new Date().toISOString(),
